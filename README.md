@@ -28,6 +28,20 @@
     ```
 
     Site will run at `http://localhost:3000`!
+    
+## Demo!
+
+Search
+
+![Search](https://github.com/Deepakhc26/MovieRack/blob/master/snapshot/search.gif)
+
+Delete
+
+![Delete](https://github.com/Deepakhc26/MovieRack/blob/master/snapshot/delete.gif)
+
+Sort
+
+![Sort](https://github.com/Deepakhc26/MovieRack/blob/master/snapshot/sort.gif)
 
 ## 🧐 What's inside?
 
