@@ -5,10 +5,10 @@
     This is a simple movie search app to search movies by there title.
 
     ```shell
-   Feature:
-   Search
-   Delete
-   Sort   
+       Feature:
+       Search
+       Delete
+       Sort   
     ```
 
 1.  **Packages**
