@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import MoviesTable from './components/Table/moviesTable';
+import Search from './components/Search/search';
+import { Layout } from 'antd';
+import { Offline, Online } from "react-detect-offline";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    const style = {
+      color: "gray",
+      marginTop: "1em",
+      fontFamily: "Monospace, sans-serif" 
+    };
+    return (
+      <div>
+        <Layout>
+        <Offline>You're offline right now! Check your internet connection...</Offline>
+        <Online><h1 style={style}><center>MoviesRack</center></h1>
+        <Search />
+        <MoviesTable />
+        </Online>
+        </Layout>
+      </div>
+    );
+  }
 }
+
 
 export default App;
