@@ -2,11 +2,13 @@
 
 1.  **Created a movie search site from React + Redux.**
 
-    Use this app to search movies by there title.
+    This is a simple movie search app to search movies by there title.
 
     ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+   Feature:
+   Search
+   Delete
+   Sort   
     ```
 
 1.  **Packages**
